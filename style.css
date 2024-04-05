@@ -1,0 +1,341 @@
+#nav{
+    display: flex;
+    justify-content: space-around;
+}
+body{background-color: rgb(217, 238, 217);
+
+
+
+
+}
+
+#icon{
+    width: 60px;
+    height: 60px;
+}
+#plants{
+    display: flex;
+    
+}
+#grow{
+    display: flex;
+    gap: 40px;
+}
+#summer{
+    display: flex;
+    gap: 500px;
+}
+#flower{
+    width: 300px;
+
+}
+#flowers{
+    display: flex;
+}
+.firstflower{
+    height: 600px;
+    width: 500px;
+    object-fit: contain;
+}
+#para{
+    font-size: 20px;
+}
+#sales{
+    display: flex;
+}
+#sales2{
+    display: flex;
+    padding-left: 300px;
+    padding-top: 100px;
+}
+#deco{
+    display: flex;
+}
+#decoration{
+    display: flex;
+    gap: 60px;
+    padding-left: 300px;
+}
+#parts{
+    text-align: center;
+}
+#decor{
+    height: 300px;
+    width: 300px;
+}
+#drift{
+    padding-left: 1500px;
+}
+button{
+    padding: 10px;
+    border: 1px solid;
+    background-color: green;
+    color: black;
+}
+#featured{
+    display: flex;
+    gap: 100px;
+    padding-left: 500px;
+}
+#item{
+    height: 500px;
+    width: 600px;
+}
+#grows{
+    padding-left: 600px;
+    font-size: 40px;
+}
+#amazing{
+    display: flex;
+    gap: 50px;
+    padding-left: 500px;
+}
+#amaze{
+    text-align: center;
+}
+#green{
+    color: green;
+}
+#source{
+    display: flex;
+    padding-left: 500px;
+}
+#img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    gap: 40px;
+}
+#blogs{
+    display: flex;
+    gap: 50px;
+    padding-left: 400px;
+}
+#human{
+    display: flex;
+}
+#categories{
+    font-size: 30px;
+}
+#person{
+    height: 60px;
+}
+#clients{
+    display: flex;
+    gap: 80px;
+    padding-left: 600px;
+}
+#love{
+    text-align: center;
+}
+#feedback{
+    border: 1px solid;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+#lorem{text-align: center;
+
+}
+#lorem1{
+    text-align: center;
+    
+}
+#footicon{
+    display: flex;
+    gap: 30px;
+}
+#foot{
+    display: flex;
+    gap: 100px;
+    padding-left: 600px;
+}
+#social{
+    height: 60px;
+    width: 60px;
+}
+#june{
+    height: 400px;
+    width: 400px;
+}
+
+@media only screen and (min-width: 350px) and(max-width: 1200px) {
+
+    #nav{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    body{background-color: rgb(217, 238, 217);
+    
+    
+    
+    
+    }
+    
+    #icon{
+        width: 10px;
+        height:10px;
+    }
+    #plants{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #grow{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    #summer{
+        display: flex;
+        
+        flex-wrap: wrap;
+    }
+    #flower{
+       height: 40px;
+    
+    }
+    #flowers{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .firstflower{
+       
+        height: 4%;
+        width: 5%;
+    }
+    #para{
+        font-size: 20px;
+    }
+    #sales{
+        display: flex;
+    }
+    #sales2{
+       
+    
+        flex-wrap: wrap;
+    }
+    #deco{
+        display: flex;
+    }
+    #decoration{
+        display: flex;
+        /* flex-wrap: wrap;
+        gap: 6px;
+        padding-left: 30px; */
+    }
+    #parts{
+        text-align: center;
+    }
+    #decor{
+        height: 80px;
+        width: 80px; 
+    } 
+    #drift{
+        padding-left: 150px;
+    }
+    button{
+        padding: 10px;
+        border: 1px solid;
+        background-color: green;
+        color: black;
+    }
+    #featured{
+        display: gris;
+        
+        gap: 5px;
+        padding-left: 50px;
+    }
+    #item{
+        height: 50px;
+        width: 60px;
+    }
+    #grows{
+        padding-left: 600px;
+        font-size: 40px;
+    }
+    #amazing{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding-left: 500px;
+    }
+    #amaze{
+        text-align: center;
+    }
+    #green{
+        color: green;
+    }
+    #source{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 500px;
+    }
+    #img{
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        gap: 40px;
+    }
+    #blogs{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding-left: 400px;
+    }
+    #human{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #categories{
+        font-size: 30px;
+    }
+    #person{
+        height: 60px;
+    }
+    #clients{
+        display: flex;
+        gap: 80px;
+        padding-left: 60px;
+        flex-wrap: wrap;
+    }
+    #love{
+        text-align: center;
+    }
+    #feedback{
+        border: 1px solid;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        flex-wrap: wrap;
+    }
+    #lorem{text-align: center;
+    
+    }
+    #lorem1{
+        text-align: center;
+        
+    }
+    #footicon{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    #foot{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+        padding-left: 600px;
+    }
+    #social{
+        height: 60px;
+        width: 60px;
+    }
+    #june{
+        height: 40px;
+        width: 40px;
+    }
+
+   
+  }
